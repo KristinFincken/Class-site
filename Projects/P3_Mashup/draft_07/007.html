@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <audio src="${ ../_assets/images/001.mp3 }" id="audio"></audio>
+<i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i> -->
+
+
+<head>
+
+
+	<meta charset="UTF-8">
+	<!-- <script src="scripts.js"></script> -->
+	<link rel="stylesheet" href="style.css">
+	<title>Draft</title>
+
+
+	<style>
+
+
+
+.wrapper {
+width:100%;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+
+body  {
+    background-image: url("../_assets/videos/giphy.gif");
+    background-color: #cccccc;
+     /*background-repeat: no-repeat;*/
+     background-size: 100%;
+}
+
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+     border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img:hover {
+    opacity:1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+     -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.main {
+
+
+}
+.purple{
+     position: absolute;
+  z-index: -1;
+
+
+}
+
+.blue{
+     position: absolute;
+  z-index: +1;
+}
+
+.red{
+     position: absolute;
+  z-index: +2;
+  top: 400px;
+}
+.green{
+     position: absolute;
+  z-index: +3;
+}
+
+.two{
+     position: absolute;
+  z-index: +3;
+   top: 250px;
+  left: 250px;
+}
+
+.pink {
+
+  position: absolute;
+  z-index: +4;
+  top: 500px;
+  left: 250px;
+}
+
+
+.one {
+
+  position: absolute;
+  z-index: +4;
+  top: 50px;
+  left: 350px;
+}
+
+.three {
+
+  position: absolute;
+  z-index: +4;
+  top: 250px;
+  left: 550px;
+}
+
+.four{
+
+	position: absolute;
+  z-index: +5;
+  top: 150px;
+  left: 500px;
+}
+.water {
+	margin: auto;
+   
+  top: 200px;
+  float: none;
+  z-index: +5;
+  width: 50px;
+  height: 100%;
+}
+
+</style>
+
+</head>
+<body>
+
+
+	
+
+<!-- <img src="../_assets/images/001.png" height="20%" width="20%"> -->
+
+
+    <script>
+function play(element){
+   var audio = element.nextElementSibling;
+   audio.play();
+}
+</script>
+<div class="main">
+<div class="purple">
+<img src="../_assets/images/001.png"  height="100%" width="100%"  value="PLAY"  onclick="play(this)">
+<audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+
+</div> 
+<div class="blue">
+
+<img src="../_assets/images/002.png"  height="65%" width="65%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+</div>
+<br>
+<div class="green">
+
+<img src="../_assets/images/003.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+<audio id="audio3" src=" ../_assets/images/003.mp3" > </audio>
+</div>
+<div class="red">
+<br>
+<img src="../_assets/images/004.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+<audio id="audio4" src=" ../_assets/images/004.mp3" > </audio>
+</div>
+
+
+ <div class="pink">
+
+ <img src="../_assets/images/002.png"  height="35%" width="35%"  value="PLAY"  onclick="play(this)">
+<audio id="audio5" src=" ../_assets/images/002_2_01.mp3" > </audio>
+
+ </div>
+
+ <div class="one">
+
+ <img src="../_assets/images/005.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+<audio id="audio6" src=" ../_assets/images/audio6.mp3" > </audio>
+
+ </div>
+
+ <div class="two">
+
+ <img src="../_assets/images/006.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+<audio id="audio6" src=" ../_assets/images/audio5.mp3" > </audio>
+
+ </div>
+
+<div class="three">
+
+ <img src="../_assets/images/007.png"  height="15%" width="15%"  value="PLAY"  onclick="play(this)">
+<audio id="audio6" src=" ../_assets/images/audio7.mp3" > </audio>
+
+ </div>
+
+
+<div class="four">
+
+ <img src="../_assets/images/008.png"  height="10%" width="10%"  value="PLAY"  onclick="play(this)">
+<audio id="audio6" src=" ../_assets/images/audio5_02.mp3" > </audio>
+
+ </div>
+
+
+
+</div>
+
+
+
+
+  <div class="water"> 
+    <br><br><br><br><br><br><br><br><br>
+<marquee direction = "down"    height = "100%" width = "100%">
+ <img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="35%" width="35%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="40%" width="40%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+     
+      <img src="../_assets/images/002.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="75%" width="75%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+       <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="30%" width="30%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+     <img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+    <img src="../_assets/images/003.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio> <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="30%" width="30%"  value="PLAY"  onclick="play(this)">
+
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio> <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="15%" width="15%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+     
+      <img src="../_assets/images/002.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio><img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="15%" width="15%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+     
+      <img src="../_assets/images/002.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+ <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio> <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+ <img src="../_assets/images/001.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+  <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+<img src="../_assets/images/002.png"  height="5%" width="5%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+<br>
+<img src="../_assets/images/003.png"  height="15%" width="15%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+
+<img src="../_assets/images/004.png"  height="10%" width="10%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/004.mp3" > </audio> <img src="../_assets/images/001.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+  <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+<img src="../_assets/images/002.png"  height="5%" width="5%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+<br>
+<img src="../_assets/images/003.png"  height="70%" width="70%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+
+<img src="../_assets/images/004.png"  height="10%" width="10%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+ <img src="../_assets/images/001.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+  <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+<img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+<audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+<br>
+
+  <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+  <img src="../_assets/images/001.png"  height="90%" width="90%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      
+    
+    <img src="../_assets/images/003.png"  height="40%" width="40%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="80%" width="80%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="70%" width="70%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="35%" width="35%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="40%" width="40%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="100%" width="100%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+    <img src="../_assets/images/003.png"  height="100%%" width="100%%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+<img src="../_assets/images/001.png"  height="45%" width="45%"  value="PLAY"  onclick="play(this)">
+<img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+<img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)"><img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+ <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio> <img src="../_assets/images/002.png"  height="60%" width="60%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/004.png"  height="50%" width="50%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="20%" width="20%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+       <img src="../_assets/images/002.png"  height="12%" width="12%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+      <br>
+      <img src="../_assets/images/003.png"  height="75%" width="75%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/003.mp3" > </audio>
+      <img src="../_assets/images/004.png"  height="100%" width="100%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/004.mp3" > </audio>
+       <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+      <img src="../_assets/images/002.png"  height="30%" width="30%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio2" src=" ../_assets/images/002.mp3" > </audio>
+     <img src="../_assets/images/001.png"  height="25%" width="25%"  value="PLAY"  onclick="play(this)">
+      <audio id="audio" src=" ../_assets/images/001.mp3"   > </audio>
+    </div>
+    </marquee>
+</body>
+
+</html>

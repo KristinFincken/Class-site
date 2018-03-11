@@ -1,0 +1,11 @@
+Logging in build 2018.0.0.685 started at: Fri Feb 23 17:02:09 2018
+========================================
+[00:05:55.709] 17:08:05.078 | quitWithUI:Quitting Application. Called by: 
+[00:05:55.710] 17:08:05.080 | Quitting Application after 5.8 minutes. Called by: 
+[00:05:57.775] Logging shutdown normally
+
+==========
+Logging ended at: Fri Feb 23 17:08:07 2018
+
+Logging in build 2018.0.0.685 started at: Fri Feb 23 18:30:25 2018
+========================================

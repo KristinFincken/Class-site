@@ -6,10 +6,15 @@
 	
 .wrapper {
 
-	width: 800px;
-    margin-right:auto;
-    margin-left:auto;
- /*   z-index: -1;*/
+	border-radius: 25px;
+   border-width: 50px;
+border-style: solid;
+    border-color: black;
+     padding:1%;
+  width: 1200px;
+  height: 700px;
+   margin-left: auto;
+    margin-right: auto;
 
 
 
@@ -20,6 +25,7 @@
 
 #text1 {
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 	float: right;
@@ -34,6 +40,7 @@ height: 30px;
 #text2{
 height: 30px;
 	background-color: #0072c6;
+	color: white;
 	border-radius: 25px;
 Clear: Both;
 float: right;
@@ -47,6 +54,7 @@ float: right;
 
 #text3{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -59,6 +67,7 @@ float: right;
     position: relative;
 }#text4{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -72,6 +81,7 @@ float: right;
 }
 #text5{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -84,6 +94,7 @@ float: right;
     position: relative;
 }#text6{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -96,6 +107,7 @@ float: right;
     position: relative;
 }#text7{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -108,6 +120,7 @@ float: right;
     position: relative;
 }#text8{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -120,6 +133,7 @@ float: right;
     position: relative;
 }#text9{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -132,6 +146,7 @@ float: right;
     position: relative;
 }#text10{
 height: 30px;
+color: white;
 	background-color: #0072c6;
 	border-radius: 25px;
 Clear: Both;
@@ -143,6 +158,7 @@ float: right;
     font-size: 25px;
     position: relative;
 }#text11{
+	color: white;
 height: 30px;
 	background-color: #0072c6;
 	border-radius: 25px;
@@ -155,93 +171,231 @@ float: right;
     font-size: 25px;
     position: relative;
 }
+.nav {
+	float: bottom;
+	width: 100%;
+	height: 10.4%;
+	background-color: grey;
+	position: relative;
+	z-index: +2;
+	top: 9%;
+	margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+.netflix {
+  top: 32%;
+left: 30%;
+z-index: +5;
+
+}
+
+.text {
+	position: relative;
+ top: -90%;
+left: 80%;
+z-index: +5;
+
+
+}
+
+.battery {
+	position: relative;
+ top: -3%;
+left: 40%;
+z-index: +5;
+
+
+}
 </style>
 
+<script type="text/javascript">  
+function showIt() {  
+  document.getElementById("text1").style.visibility = "visible";  
+}  
+setTimeout("showIt()", 2000); // after 2 sec  
+
+function showIt2() {  
+  document.getElementById("text2").style.visibility = "visible";  
+}  
+setTimeout("showIt2()", 3000); // after 2 sec  
+
+function showIt3() {  
+  document.getElementById("text3").style.visibility = "visible";  
+}  
+setTimeout("showIt3()", 4000); // after 2 sec 
+
+function showIt4() {  
+  document.getElementById("text4").style.visibility = "visible";  
+}  
+setTimeout("showIt4()", 5000); // after 2 sec 
+
+function showIt5() {  
+  document.getElementById("text5").style.visibility = "visible";  
+}  
+setTimeout("showIt5()", 6000); // after 2 sec 
+
+function showIt6() {  
+  document.getElementById("text6").style.visibility = "visible";  
+}  
+setTimeout("showIt6()", 8000); // after 2 sec 
+
+function showIt7() {  
+  document.getElementById("text7").style.visibility = "visible";  
+}  
+setTimeout("showIt7()", 10000); // after 2 sec 
+
+
+
+function showIt8() {  
+  document.getElementById("text8").style.visibility = "visible";  
+}  
+setTimeout("showIt8()", 120000); // after 2 sec 
+
+function showIt8() {  
+  document.getElementById("text8").style.visibility = "visible";  
+}  
+setTimeout("showIt8()", 14000); // after 2 sec 
+
+function showIt9() {  
+  document.getElementById("text9").style.visibility = "visible";  
+}  
+setTimeout("showIt9()", 16000); // after 2 sec 
+
+
+function showIt10() {  
+  document.getElementById("text10").style.visibility = "visible";  
+}  
+setTimeout("showIt10()", 18000); // after 2 sec 
+
+
+function showIt11() {  
+  document.getElementById("text11").style.visibility = "visible";  
+}  
+setTimeout("showIt11()", 20000); // after 2 sec 
+
+</script>
 
 </head>
 <body>
-
+<br>
+<br>
+<br>
 <div class="wrapper">
 
 <br>
 <br>
 
-<div id="text1" >
+<div id="text1" style="visibility: hidden" >
 
 	 &nbsp; &nbsp;sorry just woke up &nbsp; &nbsp; 
 </div>
+ 
 
 <br>
 <br>
 <br>
-<div id="text2" >
+<div id="text2" style="visibility: hidden" >
 	 &nbsp; &nbsp;hey I&#39m on my way &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text3">
+<div id="text3" style="visibility: hidden" >
 	 &nbsp; &nbsp;meeting ran late, lets meet at 2 &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text4">
+<div id="text4" style="visibility: hidden">
 	 &nbsp; &nbsp; sorry something came up &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text5">
+<div id="text5" style="visibility: hidden">
 	 &nbsp; &nbsp; theres a problem at my house I need to go home  &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text6">
+<div id="text6" style="visibility: hidden">
 	 &nbsp; &nbsp; can meet meet later? I&#39m doing errands &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text7">
+<div id="text7" style="visibility: hidden">
 	 &nbsp; &nbsp; I&#39m just getting ready now &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text8">
+<div id="text8" style="visibility: hidden">
 	 &nbsp; &nbsp; I&#39m on my way &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text9">
+<div id="text9" style="visibility: hidden">
 	 &nbsp; &nbsp; there is traffic, going to be late &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text10">
+<div id="text10" style="visibility: hidden">
 	 &nbsp; &nbsp;I&#39m five minutes away &nbsp; &nbsp;
 </div>
  
 <br>
 <br>
 <br>
-<div id="text11">
+<div id="text11" style="visibility: hidden">
 	 &nbsp; &nbsp; the parking lot is packed I&#39m looking for a spot&nbsp; &nbsp;
 </div>
 
 
+<div class="nav">
+	  <div class="netflix">
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+
+
+ <a href="netflix.html"><img src="netflix.png" width="5.2%" height="5.2%"" usemap="netlfix"> </a>
+
+
+<map name="netflix">
+  <area shape="rect" coords="0,0,500,500" href="netflix.html" alt="Sun">
+
+
+
+ </div>
+<div class="text"> 
+
+<a href="text.html"><img src="text.png" width="5.2%" height="5.2%"" usemap="netlfix"> </a>
+</div>
+
+
+</div>
+
+<div class="battery"> 
+
+<a href="battery.html"><img src="battery.png" width="7%" height="7%"" usemap="netlfix"> </a>
+</div>
+
+
+</div>
 
 </div>
 

@@ -5,22 +5,38 @@
 
 
 	<style >
-		.ipad {
-			.position: ;
-		}
+/*		.ipad {
+			.position: relative;
+			z-index: +1;
+
+
+		}*/
 		.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 100%;
     position: relative;
+    z-index: -1;
+
+
+}
+.screen{
+	background-color: red;
+	position: relative;
+	z-index: +5;
+	width: 51%;
+	top: -1275px;
+	left: 405px;
+
 }
 .battery {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	height: 700px;
-	width: 2000px;
+	height: 50%;
+	width: 50%;
 	z-index: +1;
 	position: relative;
 	top: -600px;
@@ -44,13 +60,15 @@
 <body>
 
 <div class="ipad">
-<img src="ipad.jpg" style="height:60%;width:60%;" class="center">
+
+<img src="ipad.png" style="height:60%;width:60%;" class="center">
+<div class="screen">
 
 
 <div class="battery">
 <iframe src="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/battery.html" style="height:100%;width:100%;""> </iframe>
 </div>
-
+</div>
 
 </div>
 </body>

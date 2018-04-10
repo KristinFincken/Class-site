@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+<style>
+.element {
+height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.7);
+    background-color: black;
+    border-radius: 100%;
+  }
+
+  25% {
+transform: scale(-2);
+border-radius: 50%;
+ background-color: purple;
+  }
+
+
+ 40% {
+transform: scale(5);
+border-radius: 20%;
+ background-color: green;
+margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid red;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+
+  }
+  50% {
+    background-color: orange;
+
+    transform: scale(.5);
+border-radius: 87%;
+  }
+
+
+
+    55% {
+    background-color: magenta ;
+    transform: scale(10);
+     display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-40deg);
+   -moz-transform:    rotate(-40deg);
+   -ms-transform:     rotate(-40deg);
+   -o-transform:      rotate(-40deg);
+   border-radius: 10%;
+   content: '';
+
+  }
+  100% {
+    transform: scale(2.5);
+    background-color: yellow;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+</style>
+
+
+</head>
+<body>
+<div class="element"></div>
+</body>
+</html>

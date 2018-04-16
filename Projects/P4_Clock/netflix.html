@@ -28,96 +28,60 @@ body {
 }
 */
 .wrapper {
- 
-  
+
+	 
   border-radius: 25px;
    border-width: 50px;
 border-style: solid;
     border-color: black;
-     padding:1%;
-  width: 1200px;
-  height: 700px;
-   margin-left: auto;
-    margin-right: auto;
-    background-color: #3D3C3A;
-}
-.side {
+      background-color: #484F50;
+/*     padding:1%;
+*/  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  height: 100px;
-  width: 50px;
 
-  background-color: black;
-  position: relative;
-  z-index: +2;
-  top: 300px;
-  left: 720px;
-   padding:1%;
-   top: 100px;
-   border-radius: 12px;
+
 
 }
-.main {
-width: 700px;
-height: 300px;
- border-radius: 25px;
 
-    margin-left:auto;
-margin-right: auto;
-
-margin-top: 15%;
-   border-style: solid;
-    border-color: black;
-     padding:1%;
-     position: relative;
-     z-index: -1;
-     clear: right;
-}
-.box {
-width: 700px;
-height: 300px;
- border-radius: 25px;
- z-index: +3;
- position: relative;
-top: -115px;
--webkit-animation: background 24s cubic-bezier(1,0,0,1) infinite;
-  animation: background 24s  cubic-bezier(1,0,0,1) infinite;  
-
-}
 
 .nav {
-float: bottom;
+bottom: 0;
   width: 100%;
   height: 10.4%;
   background-color: grey;
-  position: relative;
-  z-index: +2;
-  top: 7.0%;
-  margin-left: auto;
-    margin-right: auto;
+  position: absolute;
+  z-index: 2;
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+
 
     
 }
 .netflix {
-  top: 50%;
-left: 30%;
-
+  position: absolute;
+  top: 32%;
+left: 0%;
 
 }
 
 .text {
-	position: relative;
- top: -90%;
+ position: absolute;
+ top: 32%;
 left: 80%;
 z-index: +6;
+
 
 }
 
 .battery {
-	position: relative;
- top: -175%;
-left: 40%;
+  position: absolute;
+ top: 0%;
+left: 45%;
 z-index: +5;
 
 
@@ -126,29 +90,25 @@ z-index: +5;
 .screen {
 
 	width: 100%
-	height: 100%;w
-	top: 30%;
+	height: 100%;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	font-size: 350%;
 	font-family: impact;
- color: white;
-  display: block;
+ color: red;
+ -webkit-animation: text 8s infinite; /* Safari 4.0 - 8.0 */
+    animation: text 8s infinite;
+
+
 }
 
       
-     #box-link2 { 
-    position: absolute; 
-    top: 120%; 
-    left: 60px; 
-    width: 120px; 
-    height: 60px; 
-    background-color: red;
-    z-index: +4; 
-
-     } 
+  
 
 
-
-@-webkit-keyframes background {
+@-webkit-keyframes text{
   0% { background-color: green; }
   5% { opacity: 0.9;
     filter: Alpha(opacity=50); /* IE8 and earlier */ }  
@@ -160,30 +120,25 @@ z-index: +5;
     filter: Alpha(opacity=50); /* IE8 and earlier */ } 
 }
 
-@keyframes background {
-  0% { background-color: green; width: 100% }
-    5% { background-color: green; width: 95% }
-      10% { background-color: green; width: 90% }  
+@keyframes text {
+ 90% { font-size:100% }
+ 88% { font-size: 80% }
+   86% { font-size: 60% }
+    84% { font-size: 40% }
+      82% { font-size: 20% }
+   
+ 80% { font-size: 1% }
+ 75% { font-size: 0% }
 
-        15% { background-color: green; width: 85% }  
-        20% { background-color: green; width: 80% }  
-        25% { background-color: green; width: 75% } 
-         30% { background-color: green; width: 70% }   
-         35% { background-color: green; width: 65% }
-          40% { background-color: green; width: 60% }
-            45% { background-color: green; width: 55% }
-              50% { background-color: green; width: 50% }
-
-    55% { background-color: green; width: 45% }
-      60% { background-color: green; width: 40% }
-        65% { background-color: green; width: 35% }
-          70% { background-color: green; width: 30% }
-            75% { background-color: green; width: 25% }
-             80% { background-color: red; width: 20% }
-            85% { background-color: red; width: 15% }
-              90%{ background-color: red; width: 10% }
-               95% { background-color: red; width: 5% }
-              100% { background-color: red; width: 2% }
+ 60% { font-size: 0% }
+  55% { font-size: 0% }
+   50% { font-size: 0% }
+    45% { font-size: 0% }
+     40% { font-size: 0% }
+      30% { font-size: 0% }
+       20% { font-size: 0% }
+        10% { font-size: 0% }
+         0% { font-size: 0% }
 
 </style>
 </head>
@@ -195,26 +150,18 @@ z-index: +5;
 <div id="txt"  align="center"  ></div>
 
 <div class="screen">
-<marquee direction = "right" width = 100%   scrolldelay="1200" scrollamount="200"> 
-ARE YOU STILL WATCHING? </marquee>
-
-</div>
-
-<div id="txt"  align="center"  ></div>
-
-<div class="main">
-<div class="side">
-</div>
-
-<div class="box">
-   
-
+<div id="txt"  align="center"  >
+ARE YOU STILL WATCHING? 
 </div>
 </div>
+
+
+
+
 
 <div class="nav" >
 
-  <div class="netflix">
+   <div class="netflix">
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 
@@ -229,20 +176,20 @@ ARE YOU STILL WATCHING? </marquee>
 
  </div>
 
-<div class="text"> 
+ <div class="text"> 
 
-<a href="text.html"><img src="text.png" width="5.2%" height="5.2%"" usemap="netlfix"> </a>
+<a href="text.html"><img src="text.png" width="20%" height="20%"" usemap="netlfix"> </a>
 </div>
 
 <div class="battery"> 
 
-<a href="battery.html"><img src="battery.png" width="7%" height="7%"" usemap="netlfix"> </a>
+<a href="battery.html"><img src="battery.png" width="20%" height="20%"" usemap="netlfix"> </a>
 </div>
-
 
   </div>
 </div>
 </div>
 </body>
 </html>
+
 

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>color</title>
+<style>
+.element {
+	position: absolute;
+height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  zoom: normal;
+
+}
+
+@keyframes stretch {
+  0% {
+   /* transform: scale(.7);*/
+    background-color: black;
+   
+
+  }
+
+  25% {
+
+ background-color: purple;
+
+
+  }
+
+
+ 40% {
+
+
+ /*background-color: green;
+margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid red;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);*/
+
+
+  }
+  50% {
+    background-color: orange;
+
+    zoom: 87%;
+  }
+
+
+
+    55% {
+    background-color: magenta ;
+    
+  /* top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-40deg);
+   -moz-transform:    rotate(-40deg);
+   -ms-transform:     rotate(-40deg);
+   -o-transform:      rotate(-40deg);
+   border-radius: 10%;
+   content: '';*/
+   zoom: 12%;
+
+  }
+  100% {
+    zoom: 30%;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+</style>
+
+
+</head>
+<body>
+<div class="element"></div>
+</body>
+</html>

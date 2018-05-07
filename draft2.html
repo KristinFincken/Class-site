@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="ss1.css">
+	<STYLE>
+.two {
+position: absolute;
+top: 40%;
+left: 40%;
+ display: block;
+        -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+    animation-name: stretch2;
+  animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch2 {
+  0% {
+    top: 70%;
+    left: 24%;
+  }
+
+  20% {
+ top: 20%;
+ left: 80%;
+  }
+
+ 40% {
+   top: 19%;
+    left: 80%;
+
+  }
+  60% {
+top: 69%;
+    left: 25%;
+  }
+    80% {
+    
+   top: 19%;
+    left: 76%;
+  }
+  100% {
+    top: 54%;
+    left: 72%;
+  }
+
+  
+	</STYLE>
+
+
+</head>
+<body>
+<div class= "wrapper" >
+<div class="one"  id="p1" >   
+  <a href="https://kristinfincken.github.io/Class-site/Projects/P2_All-HTML/1.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+
+
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Projects/P2_All-HTML/1.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;"></iframe> </a> </div>
+
+
+
+<div class="two" id="p2" >
+
+  <a href="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/netflix.html" target="_blank">
+    <div style="position:absolute;  z-index:+2;height:245px;width:500px;"></div>
+
+
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/netflix.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;"> </iframe> </a>
+
+</div> 
+
+
+<!-- <div class="three"  >
+
+  <a href="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/battery.html">
+    <div style="position:absolute;  z-index:500;height:245px;width:100%;"></div>
+
+
+<iframe id="forecast_embed3" type="text/html" src="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/battery.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;"></iframe>
+
+</div> 
+ -->
+
+
+
+
+<script>
+
+$( "#p1" ).click(function() {
+  alert( "all html: By using just HTML I was able to create five separate web pages that link to each other. I used pre set styling in HTML to design the page" );
+});
+
+
+$( "#p2" ).click(function() {
+  alert( "clock: I focused on how technology affects how people tell time. Such as people will look at the phone battery to tell if its getting late in the day and if they should go home. How people send text messages and continuities waste your time by saying they are on their way when they aren't. " );
+});
+</script>
+</div>
+</body>
+</html>

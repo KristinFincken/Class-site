@@ -1,0 +1,142 @@
+
+
+.one {
+    position: absolute;
+    height: 400px;
+   
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+    display: block;
+        -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  animation-name: stretch;
+  animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  z-index: +7;
+}
+
+@keyframes stretch {
+  0% {
+    top: 20%;
+    left: 50%;
+  }
+
+  20% {
+ top: 40%;
+ left: 27%;
+  }
+
+ 40% {
+   top: 40%;
+    left: 30%;
+
+  }
+  60% {
+top: 5%;
+    left: 87%;
+  }
+    80% {
+    
+   top: 12%;
+    left: 15%;
+  }
+  100% {
+    top: 24%;
+    left: 12%;
+  }
+
+  .two {
+
+}
+
+@keyframes stretch {
+  0% {
+    top: 240%;
+    left: 58%;
+  }
+
+  25% {
+ top: 30%;
+ left: 287%;
+  }
+
+ 40% {
+   top: 40%;
+    left: 30%;
+
+  }
+  50% {
+top: 54%;
+    left: 34%;
+  }
+    55% {
+    
+   top: 81%;
+    left: 29%;
+  }
+  100% {
+    top: 24%;
+    left: 12%;
+  }
+
+.three {
+    position: absolute;
+    height: 300px;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+    display: block;
+        -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    top: 240%;
+    left: 58%;
+  }
+
+  25% {
+ top: 30%;
+ left: 287%;
+  }
+
+ 40% {
+   top: 40%;
+    left: 30%;
+
+  }
+  50% {
+top: 54%;
+    left: 34%;
+  }
+    55% {
+    
+   top: 81%;
+    left: 29%;
+  }
+  100% {
+    top: 24%;
+    left: 12%;
+  }
+

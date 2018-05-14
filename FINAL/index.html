@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title> Kristin Fincken</title>
+	<style> 
+.content2 {
+
+ font-family: 'Montserrat', sans-serif;
+	background: rgba(132, 132, 130, 0.95);
+font-size: 140%;
+-webkit-text-stroke: .4px white
+color: black;
+}
+
+.toggle{
+/*    display:inline-block;*/
+    height:122px;
+    width:75px;
+    background:url("logo.png");
+}
+.toggle:after{
+    content:"";
+    display:block;
+    height:100%;
+    line-height:48px;
+    width:88px;
+    margin-left:48px;
+    position: absolute;
+    z-index: +12;
+
+}
+.toggle.expanded:after{
+     content:"";
+    ;
+}
+.toggle.expanded {
+    background:url("logo.png");
+    
+
+}
+.wrapper {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+.one {
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+    position: absolute;
+   height: 60%;
+      width: 60%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    z-index: -14;
+    animation-name: stretch;
+  animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+ }
+
+
+@keyframes stretch {
+  0% {
+    top: 20%;
+    left: 50%;
+  }
+
+  20% {
+ top: 40%;
+ left: 27%;
+  }
+
+ 40% {
+   top: 40%;
+    left: 30%;
+
+  }
+  60% {
+top: 5%;
+    left: 57%;
+  }
+    80% {
+    
+   top: 12%;
+    left: 15%;
+  }
+  100% {
+    top: 24%;
+    left: 12%;
+  }
+}
+
+  .two {
+  	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+       height: 60%;
+      width: 60%;
+   left: 20%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    z-index: -13;
+      animation-name: stretch2;
+  animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch2 {
+  0% {
+    top: 60%;
+    left: 24%;
+  }
+
+  20% {
+ top: 20%;
+ left: 50%;
+  }
+
+ 40% {
+   top: 19%;
+    left: 5%;
+
+  }
+  60%
+   {
+top: 55%;
+    left: 25%;
+  }
+
+
+    80% {
+    
+   top: 19%;
+    left: 12%;
+  }
+  100% {
+    top: 54%;
+    left: 42%;
+  }
+}
+  
+ .three {
+ 	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    z-index: -4;
+     animation-name: stretch3;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+
+}
+
+@keyframes stretch3 {
+  0% {
+    top: 12%;
+    left: 44%;
+  }
+
+  20% {
+ top: 20%;
+ left: 12%;
+  }
+
+ 40% {
+   top: 40%;
+    left: 55%;
+
+  }
+  60%
+   {
+top: 20%;
+    left: 12%;
+  }
+
+
+    80% {
+    
+   top: 46%;
+    left: 37%;
+  }
+  100% {
+    top: 2%;
+    left: 24%;
+  }
+}
+
+
+ .four {
+ 	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index: -1;
+     animation-name: stretch4;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@keyframes stretch4 {
+  0% {
+    top: 5%;
+    left: 12%;
+  }
+
+  20% {
+ top: 20%;
+ left: 7%;
+  }
+
+ 40% {
+   top: 56%;
+    left: 35%;
+
+  }
+  60%
+   {
+top: 15%;
+    left: 42%;
+  }
+
+
+    80% {
+    
+   top: 40%;
+    left: 12%;
+  }
+  100% {
+    top: 23%;
+    left: 24%;
+  }
+}
+
+.five {
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-2;
+     animation-name: stretch5;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch5 {
+  0% {
+    top: 15%;
+    left: 22%;
+  }
+
+  20% {
+ top: 12%;
+ left: 17%;
+  }
+
+ 40% {
+   top: 36%;
+    left: 25%;
+
+  }
+  60%
+   {
+top: 5%;
+    left: 2%;
+  }
+
+
+    80% {
+    
+   top: 37%;
+    left: 42%;
+  }
+  100% {
+    top: 29%;
+    left: 5%;
+  }
+}
+
+
+.six {
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-3;
+     animation-name: stretch6;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch6 {
+  0% {
+    top: -5%;
+    left: -2%;
+  }
+
+  20% {
+ top: 24%;
+ left: -7%;
+  }
+
+ 40% {
+   top: 46%;
+    left: 12%;
+
+  }
+  60%
+   {
+top: -5%;
+    left: -2%;
+  }
+
+
+    80% {
+    
+   top: 42%;
+    left: 11%;
+  }
+  100% {
+    top: 11%;
+    left: 36%;
+  }
+}
+
+
+.seven{
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-4;
+     animation-name: stretch7;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch7 {
+  0% {
+    top: 0%;
+    left: 12%;
+  }
+
+  20% {
+ top: -5%;
+ left: 23%;
+  }
+
+ 40% {
+   top: 12%;
+    left: -3%;
+
+  }
+  60%
+   {
+top: 36%;
+    left: 2%;
+  }
+
+
+    80% {
+    
+   top: -8%;
+    left: 2%;
+  }
+  100% {
+    top: 5%;
+    left: 36%;
+  }
+}
+
+.eight{
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-5;
+     animation-name: stretch8;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch8 {
+  0% {
+    top: 30%;
+    left: -8%;
+  }
+
+  20% {
+ top: -8%;
+ left: 50%;
+  }
+
+ 40% {
+   top: 42%;
+    left: -13%;
+
+  }
+  60%
+   {
+top: -2%;
+    left: 12%;
+  }
+
+
+    80% {
+    
+   top: 18%;
+    left: 32%;
+  }
+  100% {
+    top: 15%;
+    left: 36%;
+  }
+}
+
+.nine{
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-5;
+     animation-name: stretch9;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch9 {
+  0% {
+    top: -5%;
+    left: 37%;
+  }
+
+  20% {
+ top: 8%;
+ left: 20%;
+  }
+
+ 40% {
+   top: -12%;
+    left: 45%;
+
+  }
+  60%
+   {
+top: 42%;
+    left: 12%;
+  }
+
+
+    80% {
+    
+   top: 38%;
+    left: 12%;
+  }
+  100% {
+    top: 25%;
+    left: -6%;
+  }
+}
+
+.ten{
+	opacity: 0.9;
+    filter: Alpha(opacity=50);
+   position: absolute;
+    height: 60%;
+    width: 60%;
+   left: 40%;
+     border: 1%;
+    border-color: black;
+    overflow: hidden;
+   display: block;
+        -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    z-index:-5;
+     animation-name: stretch10;
+    animation-duration: 30s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@keyframes stretch10 {
+  0% {
+    top: 22%;
+    left: 7%;
+  }
+
+  20% {
+ top: 18%;
+ left: 3%;
+  }
+
+ 40% {
+   top: -9%;
+    left: 25%;
+
+  }
+  60%
+   {
+top: -5%;
+    left: 47%;
+  }
+
+
+    80% {
+    
+   top: 8%;
+    left: 32%;
+  }
+  100% {
+    top: 5%;
+    left: 46%;
+  }
+}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+<div class="toggle"></div>
+
+<div class="content2">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, I am Kristin Fincken a junior, double major in New Media and Arts Management at Suny Purchase. This webpage is a collection of work I have done in the class Design for Web, Spring 2018. I have chosen to showcase by work by using animated iframes, that the user can interact with in order to see the projects I have created. My three main projects were the Mashup, Clock, and All HTML project.
+<br>
+<br>
+</div>
+
+<div class="one"  id="p1" >   
+  <a href="https://kristinfincken.github.io/Class-site/Projects/P2_All-HTML/1.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Projects/P2_All-HTML/1.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="two"  id="p2" >   
+<a href="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/netflix.html" target="_blank">
+    <div style="position:absolute;  z-index:+2;height:245px;width:500px;"></div>
+
+
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Projects/P4_Clock/netflix.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"> </iframe> </a>
+</div>
+
+<div class="three"  id="p3" >   
+  <a href="https://kristinfincken.github.io/Class-site/P3_Mashup/draft_07/007.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/P3_Mashup/draft_07/007.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="four"  id="p4" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/Still-Life/cube.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/Still-Life/cube.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="five"  id="p5" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/Animation/background.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/Animation/background.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="six"  id="p6" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/hover/Rotation.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/hover/Rotation.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="seven"  id="p7" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/jquery/index.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/jquery/index.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="eight"  id="p8" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/flexbox/flexbox.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/flexbox/flexbox.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="nine"  id="p9" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/starterkit/index.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/starterkit/index.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+<div class="ten"  id="p10" >   
+  <a href="https://kristinfincken.github.io/Class-site/Workshops/iframe/frame.html" target="_blank">
+    <div style="position:absolute;  z-index:+3;height:245px;width:100%;  "></div>
+<iframe id="forecast_embed" type="text/html" src="https://kristinfincken.github.io/Class-site/Workshops/iframe/frame.html" height="100%" width="100%" frameborder="0" style="border:0-moz-border-radius: 15px;
+border-radius: 15px;" scrolling="no"></iframe> </a> </div>
+
+ </dv>
+<script>
+
+$( "#p1" ).click(function() {
+  alert( "All HTML: By using just HTML I was able to create five separate web pages that link to each other. I used pre set styling in HTML to design the page" );
+});
+
+
+$( "#p2" ).click(function() {
+  alert( "Clock: I focused on how technology affects how people tell time. Such as people will look at the phone battery to tell if its getting late in the day and if they should go home. How people send text messages and continuities waste your time by saying they are on their way when they aren't. " );
+});
+
+$( "#p3" ).click(function() {
+  alert( "Mashup: This is a collection of sounds and images. The more a user interacts and clicks on the images the louder the piece will become." );
+});
+
+
+$( "#p4" ).click(function() {
+  alert( "Still life: This project I worked to create a digital still life image by using CSS and Html only" );
+});
+
+$( "#p5" ).click(function() {
+  alert( "Animation: While using CSS I was able to control the timing and animate different functions such as Background color, Scale, Shape, Position" );
+});
+
+
+$( "#p6" ).click(function() {
+  alert( "Hover: Hover works with when a mouse is dragged over an object or div an effect will take place. Such a change in color or size." );
+});
+
+$( "#p7" ).click(function() {
+  alert( "Jquery:This works with interaction between the user and the web page. When the user clicks on a button an image can move, disappear, etc." );
+});
+
+
+$( "#p8" ).click(function() {
+  alert( "Flexbox Calendar: A calendar  setup that the width and height interact with the height and width of the webpage. " );
+});
+
+
+$( "#p9" ).click(function() {
+  alert( "Responsive Page: This is when the size of the page changes what is being displayed changes with it." );
+});
+
+
+$( "#p10" ).click(function() {
+  alert( "Iframe: By using I frame to have been able to insert a live version of an outside website onto the webpage. " );
+});
+
+$(document).ready(function () {
+    var $content = $(".content2").hide();
+    $(".toggle").on("click", function (e) {
+        $(this).toggleClass("expanded");
+        $content.slideToggle();
+
+    });
+});
+ 
+</script>
+</body>
+</html>
